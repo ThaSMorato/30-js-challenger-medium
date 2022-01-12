@@ -2,7 +2,7 @@ import { describe, it, expect } from "@jest/globals";
 
 import { mathPersistence } from "./mathPersistence";
 
-describe("Cesar string decrypt", () => {
+describe("Math persistence", () => {
   it("should return 3 to 539 with", () => {
     const content = 539;
     const result = mathPersistence(content);
